@@ -1,0 +1,14 @@
+{
+  "name": "dockerpractice",
+  "version": "1.0.0",
+  "type": "module",
+   "scripts": {   "start": "nodemon server.js",  
+    "dev": "nodemon --legacy-watch server.js" 
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
